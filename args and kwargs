@@ -1,0 +1,5 @@
+def myfunc(*args):
+  '''Inputs: Should be int type
+  Outputs: list of all even numbers input'''
+  mylist = [args for args in args if args%2==0] #using list comprehension here
+  return mylist
