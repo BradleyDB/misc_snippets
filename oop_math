@@ -15,3 +15,7 @@ class Line:
     def distance(self):
         
         return ((self.coor1[0] - self.coor2[0])**2 + (self.coor1[1] - self.coor2[1])**2)**.5
+
+    def slope(self):
+        
+        return (self.coor2[1]-self.coor1[1]) / (self.coor2[0]-self.coor1[0])
